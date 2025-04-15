@@ -2,7 +2,7 @@ name: sample-web-docker-containers
 
 services:
   web-container01:
-    image: yeasy/simple-web
+    image: 851725300440.dkr.ecr.ap-southeast-1.amazonaws.com/docker-hub-pwawslearning/yeasy/simple-web
     hostname: container01
     container_name: web-server01
     environment:
@@ -11,7 +11,7 @@ services:
       - simple-network
     
   web-container02:
-    image: yeasy/simple-web
+    image: 851725300440.dkr.ecr.ap-southeast-1.amazonaws.com/docker-hub-pwawslearning/yeasy/simple-web
     hostname: container02
     container_name: web-server02
     environment:
