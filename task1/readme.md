@@ -35,16 +35,19 @@ Before getting started, ensure you have the following:
   ![Image](https://github.com/user-attachments/assets/3f3017df-2426-4ee6-96a3-9b640a884ccd)
   ![Image](https://github.com/user-attachments/assets/1ec4c810-739c-41be-a133-1130ad80ff7e)
   ![Image](https://github.com/user-attachments/assets/57ba323c-9e0a-4f9c-a0dd-1115575cf4b5)
+---
 2. **Define specific upstream registry and namespace**:
   ![Image](https://github.com/user-attachments/assets/198b322d-4c6e-4d77-b3c4-09bcee5a385d)
   ![Image](https://github.com/user-attachments/assets/bccc9eae-744f-4e7a-8258-a98b54794aae)
   ![Image](https://github.com/user-attachments/assets/34f2a609-c6ed-4bf0-8d5e-551d3d2ca087)
-  - After setting up pull through cache, validate the created rule.
+   - After setting up pull through cache, validate the created rule.
   ![Image](https://github.com/user-attachments/assets/b1dc709b-099c-43fc-8005-ebaa1a28bfac)
+---
 3. **Pull imagefrom upstream registry and to ECR private registry**
   ![Image](https://github.com/user-attachments/assets/fc414db2-8c53-4e2e-8e3b-47bc4994b068)
   - Pull image from docker hub by aws cli as ECR provided pull commands.
   ![Image](https://github.com/user-attachments/assets/76a489df-b6ea-42ee-9e4d-117260bf0e60)
+---
   
 - **Deploy web server on docker containers by using docker compose**:
   _docker compose file_
@@ -87,8 +90,8 @@ Before getting started, ensure you have the following:
     simple-network:
         driver: bridge
   ```
- _nginx.conf_
-   ```
+  _nginx.conf_
+  ```
     events {}
 
     http {
