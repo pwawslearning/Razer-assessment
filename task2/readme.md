@@ -48,7 +48,7 @@ This project outlines the deployment strategy for a globally distributed **payme
 
 ---
 
-## 📊 Observability (Coming Soon)
+## 📊 Observability
 
 Planned integration with:
 - **Prometheus + Grafana** for metrics and dashboards.
