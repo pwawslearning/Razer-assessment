@@ -48,7 +48,7 @@ Before getting started, ensure you have the following:
   
 - **Deploy web server on docker containers by using docker compose**:
   _docker compose file_
-```
+  ```
     name: sample-web-docker-containers
 
     services:
@@ -86,9 +86,9 @@ Before getting started, ensure you have the following:
     networks:
     simple-network:
         driver: bridge
-```
+  ```
  _nginx.conf_
- ```
+   ```
     events {}
 
     http {
@@ -107,7 +107,7 @@ Before getting started, ensure you have the following:
             }
         }
     }
- ```
+   ```
  ---
 
 ## Verification
@@ -115,5 +115,4 @@ Before getting started, ensure you have the following:
 ![Image](https://github.com/user-attachments/assets/831cf3d6-6c88-498d-b92d-67aba884a7b3)
 - Access the website by using localhost ```http://localhost:8080```
 ![Image](https://github.com/user-attachments/assets/28f089bb-2394-446d-a1ce-9e3e2c76ce5b)
-
 ![Image](https://github.com/user-attachments/assets/6470c7f8-a628-45a1-ae52-542004af38b3)
